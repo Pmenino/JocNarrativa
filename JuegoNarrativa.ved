@@ -98,7 +98,7 @@
 		</Loading>
 	</Loadings>
 	<Characters newId="1" versionedId="-1" tableId="0">
-		<Character name="Placeholder Jr." id="0" order="0" lastModified="-1" CharacterWalkingSound="" CharacterScale="T" CharacterDialogVerticalSpace="10" CharacterScaleFactor="100" CharacterHarmonizeWalkAnimations="F">
+		<Character name="Placeholder Jr." id="0" order="0" lastModified="-1" CharacterWalkingSound="" CharacterScale="T" CharacterDialogVerticalSpace="10" CharacterScaleFactor="20" CharacterHarmonizeWalkAnimations="F">
 			<CharacterName parentLink="T" id="1" tableId="14" LinkAny="F"/>
 			<CharacterInterfaces>
 				<Link parentLink="F" id="0" tableId="1" LinkAny="F"/>
@@ -328,35 +328,49 @@
 			</SceneComponents>
 		</Scene>
 	</Scenes>
-	<Points newId="14" versionedId="-1" tableId="5">
-		<Point name="Point0" id="0" order="0" lastModified="-1" PointSize="-1">
-			<PointPosition x="930" y="683"/>
+	<Points newId="15" versionedId="-1" tableId="5">
+		<Point name="Point0" id="8" order="0" lastModified="-1" PointSize="-1">
+			<PointPosition x="91" y="89"/>
 			<PointRelations>
-				<Link parentLink="F" id="1" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="9" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
-		<Point name="Point1" id="1" order="1" lastModified="-1" PointSize="0">
-			<PointPosition x="81" y="147"/>
+		<Point name="Point1" id="9" order="1" lastModified="-1" PointSize="-1">
+			<PointPosition x="91" y="117"/>
 			<PointRelations>
-				<Link parentLink="F" id="0" tableId="5" LinkAny="F"/>
-				<Link parentLink="F" id="2" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="8" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="10" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
-		<Point name="Point2" id="2" order="2" lastModified="-1" PointSize="-1">
-			<PointPosition x="81" y="115"/>
+		<Point name="Point2" id="10" order="2" lastModified="-1" PointSize="-1">
+			<PointPosition x="91" y="147"/>
 			<PointRelations>
-				<Link parentLink="F" id="1" tableId="5" LinkAny="F"/>
-				<Link parentLink="F" id="3" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="9" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="11" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
-		<Point name="Point3" id="3" order="3" lastModified="-1" PointSize="-1">
-			<PointPosition x="82" y="87"/>
+		<Point name="Point3" id="11" order="3" lastModified="-1" PointSize="-1">
+			<PointPosition x="515" y="688"/>
 			<PointRelations>
-				<Link parentLink="F" id="2" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="10" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="12" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Point4" id="12" order="4" lastModified="-1" PointSize="-1">
+			<PointPosition x="922" y="687"/>
+			<PointRelations>
+				<Link parentLink="F" id="11" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="13" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Point5" id="13" order="5" lastModified="-1" PointSize="-1">
+			<PointPosition x="1328" y="682"/>
+			<PointRelations>
+				<Link parentLink="F" id="12" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
 	</Points>
-	<Objects newId="5" versionedId="-1" tableId="6">
+	<Objects newId="7" versionedId="-1" tableId="6">
 		<Object name="Escena 1" id="1" order="0" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
 			<ObjectName parentLink="T" id="5" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
@@ -459,7 +473,7 @@
 			</ObjectComponents>
 		</Object>
 	</Objects>
-	<Actions newId="10" versionedId="-1" tableId="7">
+	<Actions newId="9" versionedId="-1" tableId="7">
 		<Action name="Action" id="4" order="4" lastModified="-1" ActionExecutionType="-1">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -491,7 +505,7 @@
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 	</ActionParts>
-	<Animations newId="14" versionedId="-1" tableId="9">
+	<Animations newId="15" versionedId="-1" tableId="9">
 		<Animation name="front" id="1" order="3" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="270" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -501,7 +515,7 @@
 				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="0" y="0"/>
+			<AnimationCenter x="174" y="1152"/>
 			<AnimationPropertyFrames>
 			</AnimationPropertyFrames>
 			<AnimationWalkSteps>
@@ -518,7 +532,7 @@
 				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="0" y="0"/>
+			<AnimationCenter x="188" y="1148"/>
 			<AnimationPropertyFrames>
 			</AnimationPropertyFrames>
 			<AnimationWalkSteps>
@@ -535,7 +549,7 @@
 				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="0" y="0"/>
+			<AnimationCenter x="184" y="1146"/>
 			<AnimationPropertyFrames>
 			</AnimationPropertyFrames>
 			<AnimationWalkSteps>
@@ -552,7 +566,7 @@
 				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="0" y="0"/>
+			<AnimationCenter x="178" y="1147"/>
 			<AnimationPropertyFrames>
 			</AnimationPropertyFrames>
 			<AnimationWalkSteps>
@@ -569,7 +583,7 @@
 				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="0" y="0"/>
+			<AnimationCenter x="184" y="1148"/>
 			<AnimationPropertyFrames>
 			</AnimationPropertyFrames>
 			<AnimationWalkSteps>
@@ -586,7 +600,7 @@
 				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="0" y="0"/>
+			<AnimationCenter x="184" y="1150"/>
 			<AnimationPropertyFrames>
 			</AnimationPropertyFrames>
 			<AnimationWalkSteps>
@@ -603,7 +617,7 @@
 				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="0" y="0"/>
+			<AnimationCenter x="188" y="1148"/>
 			<AnimationPropertyFrames>
 			</AnimationPropertyFrames>
 			<AnimationWalkSteps>
@@ -620,7 +634,7 @@
 				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="0" y="0"/>
+			<AnimationCenter x="180" y="1140"/>
 			<AnimationPropertyFrames>
 			</AnimationPropertyFrames>
 			<AnimationWalkSteps>
@@ -725,7 +739,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="13" versionedId="-1" tableId="14">
+	<Texts newId="15" versionedId="-1" tableId="14">
 		<Text name="Unnamed" id="0" order="0" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -839,7 +853,7 @@
 	</ParticleContainers>
 	<CommentSetEntries newId="0" versionedId="-1" tableId="27">
 	</CommentSetEntries>
-	<AnimationFrames newId="9" versionedId="-1" tableId="28">
+	<AnimationFrames newId="0" versionedId="-1" tableId="28">
 	</AnimationFrames>
 	<WaySystems newId="1" versionedId="-1" tableId="29">
 		<WaySystem name="Way system0" id="0" order="0" lastModified="-1">
@@ -850,10 +864,12 @@
 				<point x="1909" y="8"/>
 			</WaySystemBorder>
 			<WaySystemPoints>
-				<Link parentLink="T" id="0" tableId="5" LinkAny="F"/>
-				<Link parentLink="T" id="1" tableId="5" LinkAny="F"/>
-				<Link parentLink="T" id="2" tableId="5" LinkAny="F"/>
-				<Link parentLink="T" id="3" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="8" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="9" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="10" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="11" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="12" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="13" tableId="5" LinkAny="F"/>
 			</WaySystemPoints>
 		</WaySystem>
 	</WaySystems>
