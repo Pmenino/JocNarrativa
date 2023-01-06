@@ -98,7 +98,7 @@
 		</Loading>
 	</Loadings>
 	<Characters newId="1" versionedId="-1" tableId="0">
-		<Character name="Placeholder Jr." id="0" order="0" lastModified="-1" CharacterWalkingSound="" CharacterScale="T" CharacterDialogVerticalSpace="10" CharacterScaleFactor="20" CharacterHarmonizeWalkAnimations="F">
+		<Character name="Placeholder Jr." id="0" order="0" lastModified="-1" CharacterWalkingSound="" CharacterScale="T" CharacterDialogVerticalSpace="10" CharacterScaleFactor="100" CharacterHarmonizeWalkAnimations="F">
 			<CharacterName parentLink="T" id="1" tableId="14" LinkAny="F"/>
 			<CharacterInterfaces>
 				<Link parentLink="F" id="0" tableId="1" LinkAny="F"/>
@@ -328,7 +328,7 @@
 			</SceneComponents>
 		</Scene>
 	</Scenes>
-	<Points newId="15" versionedId="-1" tableId="5">
+	<Points newId="19" versionedId="-1" tableId="5">
 		<Point name="Point0" id="8" order="0" lastModified="-1" PointSize="-1">
 			<PointPosition x="91" y="89"/>
 			<PointRelations>
@@ -349,21 +349,21 @@
 				<Link parentLink="F" id="11" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
-		<Point name="Point3" id="11" order="3" lastModified="-1" PointSize="-1">
+		<Point name="Point3" id="11" order="3" lastModified="-1" PointSize="20">
 			<PointPosition x="515" y="688"/>
 			<PointRelations>
 				<Link parentLink="F" id="10" tableId="5" LinkAny="F"/>
 				<Link parentLink="F" id="12" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
-		<Point name="Point4" id="12" order="4" lastModified="-1" PointSize="-1">
+		<Point name="Point4" id="12" order="4" lastModified="-1" PointSize="20">
 			<PointPosition x="922" y="687"/>
 			<PointRelations>
 				<Link parentLink="F" id="11" tableId="5" LinkAny="F"/>
 				<Link parentLink="F" id="13" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
-		<Point name="Point5" id="13" order="5" lastModified="-1" PointSize="-1">
+		<Point name="Point5" id="13" order="5" lastModified="-1" PointSize="20">
 			<PointPosition x="1328" y="682"/>
 			<PointRelations>
 				<Link parentLink="F" id="12" tableId="5" LinkAny="F"/>
@@ -383,7 +383,7 @@
 			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectActions>
-				<Link parentLink="T" id="7" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="10" tableId="7" LinkAny="F"/>
 			</ObjectActions>
 			<ObjectConditions>
 			</ObjectConditions>
@@ -473,18 +473,12 @@
 			</ObjectComponents>
 		</Object>
 	</Objects>
-	<Actions newId="9" versionedId="-1" tableId="7">
+	<Actions newId="11" versionedId="-1" tableId="7">
 		<Action name="Action" id="4" order="4" lastModified="-1" ActionExecutionType="-1">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionActionParts>
 				<Link parentLink="T" id="3" tableId="8" LinkAny="F"/>
-			</ActionActionParts>
-		</Action>
-		<Action name="'Interactuar' executed" id="7" order="0" lastModified="-1" ActionExecutionType="6">
-			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionCommand parentLink="F" id="1" tableId="2" LinkAny="F"/>
-			<ActionActionParts>
 			</ActionActionParts>
 		</Action>
 		<Action name="Enter" id="8" order="0" lastModified="-1" ActionExecutionType="13">
@@ -494,8 +488,15 @@
 				<Link parentLink="T" id="4" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
+		<Action name="'Interactuar' executed" id="10" order="0" lastModified="-1" ActionExecutionType="6">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="1" tableId="2" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="6" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
 	</Actions>
-	<ActionParts newId="5" versionedId="-1" tableId="8">
+	<ActionParts newId="7" versionedId="-1" tableId="8">
 		<ActionPart name="Set next command" id="3" order="0" lastModified="-1" ActionPartCommand="45" ActionPartPath="" ActionPartInt="2" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -503,6 +504,10 @@
 		<ActionPart name="Quit game" id="4" order="0" lastModified="-1" ActionPartCommand="55" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Placeholder Jr.: Hola" id="6" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="T" id="15" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
 	</ActionParts>
 	<Animations newId="15" versionedId="-1" tableId="9">
@@ -646,12 +651,12 @@
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
-				<sprite name="" pause="0" path="Imatges escenes/Cursor clicar.png" Transparency="2">
+				<sprite name="" pause="0" path="Imatges escenes/Cursor interactuar.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="480" y="305"/>
+			<AnimationCenter x="13" y="6"/>
 			<AnimationPropertyFrames>
 			</AnimationPropertyFrames>
 			<AnimationWalkSteps>
@@ -663,12 +668,12 @@
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
-				<sprite name="" pause="0" path="Imatges escenes/Cursor clicar.png" Transparency="2">
+				<sprite name="" pause="0" path="Imatges escenes/Cursor interactuar.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="480" y="283"/>
+			<AnimationCenter x="13" y="6"/>
 			<AnimationPropertyFrames>
 			</AnimationPropertyFrames>
 			<AnimationWalkSteps>
@@ -680,12 +685,12 @@
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
-				<sprite name="" pause="105" path="Imatges escenes/Cursor caminar.png" Transparency="2">
+				<sprite name="" pause="0" path="Imatges escenes/Cursor caminar.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="100" y="150"/>
+			<AnimationCenter x="11" y="8"/>
 			<AnimationPropertyFrames>
 			</AnimationPropertyFrames>
 			<AnimationWalkSteps>
@@ -697,12 +702,12 @@
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
-				<sprite name="" pause="105" path="Imatges escenes/Cursor caminar.png" Transparency="2">
+				<sprite name="" pause="0" path="Imatges escenes/Cursor caminar.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="93" y="133"/>
+			<AnimationCenter x="11" y="9"/>
 			<AnimationPropertyFrames>
 			</AnimationPropertyFrames>
 			<AnimationWalkSteps>
@@ -739,7 +744,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="15" versionedId="-1" tableId="14">
+	<Texts newId="16" versionedId="-1" tableId="14">
 		<Text name="Unnamed" id="0" order="0" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -800,13 +805,18 @@
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
+		<Text name="Unnamed" id="15" order="15" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Hola" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
 	</Texts>
 	<Cursors newId="2" versionedId="-1" tableId="15">
-		<Cursor name="Interactuar" id="0" order="0" lastModified="-1">
+		<Cursor name="Interactuar" id="0" order="1" lastModified="-1">
 			<CursorActiveAnimation parentLink="T" id="10" tableId="9" LinkAny="F"/>
 			<CursorInactiveAnimation parentLink="T" id="11" tableId="9" LinkAny="F"/>
 		</Cursor>
-		<Cursor name="Caminar" id="1" order="1" lastModified="-1">
+		<Cursor name="Caminar" id="1" order="0" lastModified="-1">
 			<CursorActiveAnimation parentLink="T" id="12" tableId="9" LinkAny="F"/>
 			<CursorInactiveAnimation parentLink="T" id="13" tableId="9" LinkAny="F"/>
 		</Cursor>
@@ -853,7 +863,7 @@
 	</ParticleContainers>
 	<CommentSetEntries newId="0" versionedId="-1" tableId="27">
 	</CommentSetEntries>
-	<AnimationFrames newId="0" versionedId="-1" tableId="28">
+	<AnimationFrames newId="10" versionedId="-1" tableId="28">
 	</AnimationFrames>
 	<WaySystems newId="1" versionedId="-1" tableId="29">
 		<WaySystem name="Way system0" id="0" order="0" lastModified="-1">
