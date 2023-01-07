@@ -636,6 +636,7 @@
 			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectActions>
+				<Link parentLink="T" id="27" tableId="7" LinkAny="F"/>
 			</ObjectActions>
 			<ObjectConditions>
 			</ObjectConditions>
@@ -662,6 +663,7 @@
 			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectActions>
+				<Link parentLink="T" id="28" tableId="7" LinkAny="F"/>
 			</ObjectActions>
 			<ObjectConditions>
 			</ObjectConditions>
@@ -985,7 +987,7 @@
 			</ObjectAnimations>
 			<ObjectValues>
 			</ObjectValues>
-			<ObjectPosition x="77" y="190"/>
+			<ObjectPosition x="80" y="190"/>
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -1074,7 +1076,7 @@
 			</ObjectComponents>
 		</Object>
 	</Objects>
-	<Actions newId="27" versionedId="-1" tableId="7">
+	<Actions newId="29" versionedId="-1" tableId="7">
 		<Action name="Action" id="4" order="4" lastModified="-1" ActionExecutionType="-1">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -1160,8 +1162,22 @@
 				<Link parentLink="T" id="27" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
+		<Action name="'Interactuar' executed" id="27" order="0" lastModified="-1" ActionExecutionType="6">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="1" tableId="2" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="28" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="'Interactuar' executed" id="28" order="0" lastModified="-1" ActionExecutionType="6">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="1" tableId="2" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="29" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
 	</Actions>
-	<ActionParts newId="28" versionedId="-1" tableId="8">
+	<ActionParts newId="30" versionedId="-1" tableId="8">
 		<ActionPart name="Set next command" id="3" order="0" lastModified="-1" ActionPartCommand="45" ActionPartPath="" ActionPartInt="2" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -1212,6 +1228,14 @@
 		</ActionPart>
 		<ActionPart name="Switch to scene 'Escena 2.2'" id="27" order="0" lastModified="-1" ActionPartCommand="10" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
 			<ActionPartLink parentLink="F" id="21" tableId="6" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Switch to scene 'Escena 2.2'" id="28" order="0" lastModified="-1" ActionPartCommand="10" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="21" tableId="6" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Switch to scene 'Escena 2.3'" id="29" order="0" lastModified="-1" ActionPartCommand="10" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="18" tableId="6" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 	</ActionParts>
