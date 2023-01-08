@@ -1244,7 +1244,7 @@
 			</ActionActionParts>
 		</Action>
 	</Actions>
-	<ActionParts newId="33" versionedId="-1" tableId="8">
+	<ActionParts newId="34" versionedId="-1" tableId="8">
 		<ActionPart name="Set next command" id="3" order="0" lastModified="-1" ActionPartCommand="45" ActionPartPath="" ActionPartInt="2" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -1305,11 +1305,11 @@
 			<ActionPartLink parentLink="F" id="18" tableId="6" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Set visibility of object 'Pedra' to 0%" id="30" order="1" lastModified="-1" ActionPartCommand="111" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+		<ActionPart name="Set visibility of object 'Pedra' to 0%" id="30" order="2" lastModified="-1" ActionPartCommand="111" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
 			<ActionPartLink parentLink="F" id="26" tableId="6" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Placeholder Jr.: Cap aquesta direcció hi ha una muntanya..." id="31" order="2" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+		<ActionPart name="Placeholder Jr.: Cap aquesta direcció hi ha una muntanya..." id="31" order="3" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
 			<ActionPartLink parentLink="T" id="45" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
