@@ -397,8 +397,9 @@
 			<SceneParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<SceneScrollableArea top="0" left="0" bottom="-1" right="-1"/>
 			<SceneWaySystems>
+				<Link parentLink="T" id="3" tableId="29" LinkAny="F"/>
 			</SceneWaySystems>
-			<SceneCurrentWaySystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneCurrentWaySystem parentLink="F" id="3" tableId="29" LinkAny="F"/>
 			<SceneActionAreas>
 			</SceneActionAreas>
 			<SceneAudioBusses>
@@ -433,8 +434,9 @@
 			<SceneParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<SceneScrollableArea top="0" left="0" bottom="-1" right="-1"/>
 			<SceneWaySystems>
+				<Link parentLink="T" id="4" tableId="29" LinkAny="F"/>
 			</SceneWaySystems>
-			<SceneCurrentWaySystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneCurrentWaySystem parentLink="F" id="4" tableId="29" LinkAny="F"/>
 			<SceneActionAreas>
 			</SceneActionAreas>
 			<SceneAudioBusses>
@@ -1132,7 +1134,7 @@
 			</ObjectComponents>
 		</Object>
 	</Objects>
-	<Actions newId="32" versionedId="-1" tableId="7">
+	<Actions newId="30" versionedId="-1" tableId="7">
 		<Action name="Action" id="4" order="4" lastModified="-1" ActionExecutionType="-1">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -1238,10 +1240,11 @@
 			<ActionActionParts>
 				<Link parentLink="T" id="30" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="31" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="32" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 	</Actions>
-	<ActionParts newId="32" versionedId="-1" tableId="8">
+	<ActionParts newId="33" versionedId="-1" tableId="8">
 		<ActionPart name="Set next command" id="3" order="0" lastModified="-1" ActionPartCommand="45" ActionPartPath="" ActionPartInt="2" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -1267,7 +1270,7 @@
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="Switch to scene 'Escena 2.1'" id="18" order="0" lastModified="-1" ActionPartCommand="10" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
-			<ActionPartLink parentLink="F" id="10" tableId="6" LinkAny="F"/>
+			<ActionPartLink parentLink="F" id="21" tableId="6" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="Switch to scene 'Escena 2.1'" id="21" order="0" lastModified="-1" ActionPartCommand="10" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
@@ -1295,20 +1298,24 @@
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="Switch to scene 'Escena 2.2'" id="28" order="0" lastModified="-1" ActionPartCommand="10" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
-			<ActionPartLink parentLink="F" id="21" tableId="6" LinkAny="F"/>
+			<ActionPartLink parentLink="F" id="10" tableId="6" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="Switch to scene 'Escena 2.3'" id="29" order="0" lastModified="-1" ActionPartCommand="10" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
 			<ActionPartLink parentLink="F" id="18" tableId="6" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Set visibility of object 'Pedra' to 0%" id="30" order="0" lastModified="-1" ActionPartCommand="111" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+		<ActionPart name="Set visibility of object 'Pedra' to 0%" id="30" order="1" lastModified="-1" ActionPartCommand="111" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
 			<ActionPartLink parentLink="F" id="26" tableId="6" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Placeholder Jr.: Cap aquesta direcció hi ha una muntanya..." id="31" order="1" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+		<ActionPart name="Placeholder Jr.: Cap aquesta direcció hi ha una muntanya..." id="31" order="2" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
 			<ActionPartLink parentLink="T" id="45" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If 'Current character' has 'Script'" id="32" order="0" lastModified="-1" ActionPartCommand="161" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="11" tableId="6" LinkAny="F"/>
 		</ActionPart>
 	</ActionParts>
 	<Animations newId="17" versionedId="-1" tableId="9">
@@ -1810,7 +1817,7 @@
 	</CommentSetEntries>
 	<AnimationFrames newId="0" versionedId="-1" tableId="28">
 	</AnimationFrames>
-	<WaySystems newId="3" versionedId="-1" tableId="29">
+	<WaySystems newId="5" versionedId="-1" tableId="29">
 		<WaySystem name="Way system0" id="0" order="0" lastModified="-1">
 			<WaySystemBorder>
 				<point x="3" y="131"/>
@@ -1856,6 +1863,26 @@
 				<Link parentLink="T" id="76" tableId="5" LinkAny="F"/>
 				<Link parentLink="T" id="77" tableId="5" LinkAny="F"/>
 				<Link parentLink="T" id="78" tableId="5" LinkAny="F"/>
+			</WaySystemPoints>
+		</WaySystem>
+		<WaySystem name="Way system0" id="3" order="0" lastModified="-1">
+			<WaySystemBorder>
+				<point x="1" y="105"/>
+				<point x="0" y="987"/>
+				<point x="1920" y="987"/>
+				<point x="1920" y="102"/>
+			</WaySystemBorder>
+			<WaySystemPoints>
+			</WaySystemPoints>
+		</WaySystem>
+		<WaySystem name="Way system0" id="4" order="0" lastModified="-1">
+			<WaySystemBorder>
+				<point x="2" y="115"/>
+				<point x="4" y="989"/>
+				<point x="1921" y="982"/>
+				<point x="1915" y="109"/>
+			</WaySystemBorder>
+			<WaySystemPoints>
 			</WaySystemPoints>
 		</WaySystem>
 	</WaySystems>
