@@ -28,7 +28,7 @@
 		<GameLanguages>
 			<Link parentLink="T" id="0" tableId="18" LinkAny="F"/>
 		</GameLanguages>
-		<GameFirstScene parentLink="F" id="16" tableId="4" LinkAny="F"/>
+		<GameFirstScene parentLink="F" id="1" tableId="4" LinkAny="F"/>
 		<GameItems>
 			<Link parentLink="T" id="11" tableId="6" LinkAny="F"/>
 			<Link parentLink="T" id="70" tableId="6" LinkAny="F"/>
@@ -138,7 +138,7 @@
 			</CharacterOutfits>
 			<CharacterCommentSets>
 			</CharacterCommentSets>
-			<CharacterStartObject parentLink="F" id="107" tableId="6" LinkAny="F"/>
+			<CharacterStartObject parentLink="F" id="4" tableId="6" LinkAny="F"/>
 			<CharacterValues>
 			</CharacterValues>
 			<CharacterConditions>
@@ -478,7 +478,7 @@
 			<ButtonComponents>
 			</ButtonComponents>
 		</Button>
-		<Button name="Usar" id="4" order="4" lastModified="-1" ButtonType="3" ButtonCommandType="1" ButtonUse="2" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="F" ButtonValueOperator="-1" ButtonValueInt="-1">
+		<Button name="Utilitzar" id="4" order="4" lastModified="-1" ButtonType="3" ButtonCommandType="1" ButtonUse="2" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="F" ButtonValueOperator="-1" ButtonValueInt="-1">
 			<ButtonActiveSprite parentLink="T" id="52" tableId="13" LinkAny="F"/>
 			<ButtonInactiveSprite parentLink="T" id="53" tableId="13" LinkAny="F"/>
 			<ButtonCursor parentLink="F" id="3" tableId="15" LinkAny="F"/>
@@ -632,7 +632,7 @@
 		</Font>
 	</Fonts>
 	<Scenes newId="17" versionedId="-1" tableId="4">
-		<Scene name="Escena 2" id="1" order="3" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+		<Scene name="Escena 2" id="1" order="4" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="Imatges escenes/bg2.PNG" Transparency="2">
 				<position x="0" y="0"/>
 			</SceneSprite>
@@ -670,7 +670,7 @@
 			<SceneComponents>
 			</SceneComponents>
 		</Scene>
-		<Scene name="Escena 2.2" id="3" order="5" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+		<Scene name="Escena 2.2" id="3" order="6" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="Imatges escenes/Escena 2 part 1.png" Transparency="2">
 				<position x="0" y="0"/>
 			</SceneSprite>
@@ -707,7 +707,7 @@
 			<SceneComponents>
 			</SceneComponents>
 		</Scene>
-		<Scene name="Escena 2.1" id="4" order="4" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+		<Scene name="Escena 2.1" id="4" order="5" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="Imatges escenes/Escena 2 part 2.png" Transparency="2">
 				<position x="0" y="0"/>
 			</SceneSprite>
@@ -745,7 +745,7 @@
 			<SceneComponents>
 			</SceneComponents>
 		</Scene>
-		<Scene name="Escena 2.3" id="5" order="6" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+		<Scene name="Escena 2.3" id="5" order="7" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="Imatges escenes/Escena 2 part 3.png" Transparency="2">
 				<position x="0" y="0"/>
 			</SceneSprite>
@@ -782,7 +782,7 @@
 			<SceneComponents>
 			</SceneComponents>
 		</Scene>
-		<Scene name="Escena 3" id="13" order="7" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+		<Scene name="Escena 3" id="13" order="8" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="Imatges escenes/bg3.png" Transparency="2">
 				<position x="0" y="0"/>
 			</SceneSprite>
@@ -820,7 +820,7 @@
 			<SceneComponents>
 			</SceneComponents>
 		</Scene>
-		<Scene name="Escena 3.1" id="14" order="8" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+		<Scene name="Escena 3.1" id="14" order="9" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="Imatges escenes/Forest1.png" Transparency="2">
 				<position x="0" y="0"/>
 			</SceneSprite>
@@ -858,7 +858,7 @@
 			<SceneComponents>
 			</SceneComponents>
 		</Scene>
-		<Scene name="Escena 3.2" id="15" order="9" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+		<Scene name="Escena 3.2" id="15" order="10" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="Imatges escenes/3.2.png" Transparency="2">
 				<position x="0" y="0"/>
 			</SceneSprite>
@@ -896,7 +896,7 @@
 			<SceneComponents>
 			</SceneComponents>
 		</Scene>
-		<Scene name="Escena " id="16" order="10" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+		<Scene name="Escena 1" id="16" order="3" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="Imatges escenes/bg1.png" Transparency="2">
 				<position x="0" y="0"/>
 			</SceneSprite>
@@ -2280,7 +2280,7 @@
 			<ObjectComponents>
 			</ObjectComponents>
 		</Object>
-		<Object name="Bloque" id="113" order="10" lastModified="-1" ObjectDirection="-1" ObjectCenter="533" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
+		<Object name="Bloc" id="113" order="10" lastModified="-1" ObjectDirection="-1" ObjectCenter="533" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="0" ObjectValueInt="0" ObjectLightmapAffected="F">
 			<ObjectName parentLink="T" id="238" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 				<point x="272" y="285"/>
@@ -2530,7 +2530,7 @@
 			</ObjectComponents>
 		</Object>
 	</Objects>
-	<Actions newId="100" versionedId="-1" tableId="7">
+	<Actions newId="102" versionedId="-1" tableId="7">
 		<Action name="Action" id="4" order="4" lastModified="-1" ActionExecutionType="-1">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -2817,7 +2817,7 @@
 				<Link parentLink="T" id="259" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
-		<Action name="'Usar' with 'Draw' executed" id="94" order="0" lastModified="-1" ActionExecutionType="6">
+		<Action name="'Utilitzar' with 'Draw' executed" id="94" order="0" lastModified="-1" ActionExecutionType="6">
 			<ActionFixture parentLink="F" id="121" tableId="6" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="4" tableId="2" LinkAny="F"/>
 			<ActionActionParts>
@@ -2827,7 +2827,7 @@
 				<Link parentLink="T" id="263" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
-		<Action name="'Usar' with 'Seleccionar' executed" id="95" order="0" lastModified="-1" ActionExecutionType="6">
+		<Action name="'Utilitzar' with 'Seleccionar' executed" id="95" order="0" lastModified="-1" ActionExecutionType="6">
 			<ActionFixture parentLink="F" id="120" tableId="6" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="4" tableId="2" LinkAny="F"/>
 			<ActionActionParts>
@@ -2850,7 +2850,7 @@
 				<Link parentLink="T" id="274" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
-		<Action name="'Usar' with 'Mover' executed" id="97" order="0" lastModified="-1" ActionExecutionType="6">
+		<Action name="'Utilitzar' with 'Mover' executed" id="97" order="0" lastModified="-1" ActionExecutionType="6">
 			<ActionFixture parentLink="F" id="119" tableId="6" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="4" tableId="2" LinkAny="F"/>
 			<ActionActionParts>
@@ -3181,7 +3181,7 @@
 			<ActionPartLink parentLink="F" id="6" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Placeholder Jr.: Sembla que ha tornat al estat anterior..." id="253" order="3" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+		<ActionPart name="Placeholder Jr.: Sembla que ha tornat a l'estat anterior..." id="253" order="3" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
 			<ActionPartLink parentLink="T" id="227" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
@@ -3217,7 +3217,7 @@
 			<ActionPartLink parentLink="F" id="121" tableId="6" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Placeholder Jr.: Sembla que no puc tornar a usar aquesta eina...&lt;br/&gt;" id="262" order="2" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+		<ActionPart name="Placeholder Jr.: Sembla que no puc tornar a utilitzar aquesta eina...&lt;br/&gt;" id="262" order="2" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
 			<ActionPartLink parentLink="T" id="236" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
@@ -3229,7 +3229,7 @@
 			<ActionPartLink parentLink="F" id="5" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Placeholder Jr.: Selecciono el bloque y lo coloco en mi inventario." id="265" order="5" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+		<ActionPart name="Placeholder Jr.: Selecciono el bloc i l'afegeixo al meu inventari." id="265" order="5" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
 			<ActionPartLink parentLink="T" id="239" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
@@ -3314,7 +3314,7 @@
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 	</ActionParts>
-	<Animations newId="38" versionedId="-1" tableId="9">
+	<Animations newId="39" versionedId="-1" tableId="9">
 		<Animation name="front" id="1" order="3" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="270" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -4474,12 +4474,12 @@
 		</Text>
 		<Text name="Id: 226 - Escena : Capas" id="226" order="47" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Capas" path="" int="0"/>
+				<text Text="Capes" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 227 - Escena : Capas: 'Interactuar' executed" id="227" order="83" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Sembla que ha tornat al estat anterior..." path="" int="0"/>
+				<text Text="Sembla que ha tornat a l'estat anterior..." path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 228 - Escena : PlayerStartPosition" id="228" order="48" lastModified="-1">
@@ -4519,27 +4519,27 @@
 		</Text>
 		<Text name="Id: 235 - Escena : Stairs_notShow" id="235" order="75" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Hoja" path="" int="0"/>
+				<text Text="Full" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 236 - Escena : Stairs_notShow: 'Usar' with 'Draw' executed" id="236" order="94" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Sembla que no puc tornar a usar aquesta eina...&lt;br/&gt;" path="" int="0"/>
+				<text Text="Sembla que no puc tornar a utilitzar aquesta eina...&lt;br/&gt;" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 237 - Escena : Stairs_show1" id="237" order="75" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Escaleras" path="" int="0"/>
+				<text Text="Escales" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 238 - Escena : Bloque" id="238" order="77" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Bloque" path="" int="0"/>
+				<text Text="Bloc" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 239 - Escena : Bloque: 'Usar' with 'Seleccionar' executed" id="239" order="85" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Selecciono el bloque y lo coloco en mi inventario." path="" int="0"/>
+				<text Text="Selecciono el bloc i l'afegeixo al meu inventari." path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 240 - Escena : Bloque: 'Usar' with 'Seleccionar' executed" id="240" order="86" lastModified="-1">
@@ -4549,7 +4549,7 @@
 		</Text>
 		<Text name="Id: 241 - Escena : Capas_activado" id="241" order="79" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Capas" path="" int="0"/>
+				<text Text="Capes" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 242 - Escena : Capas_activado: 'Interactuar' executed" id="242" order="82" lastModified="-1">
@@ -4559,12 +4559,12 @@
 		</Text>
 		<Text name="Id: 243 - Escena : Bloque_colocado" id="243" order="87" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Bloque_colocado" path="" int="0"/>
+				<text Text="Bloc" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 244 - Escena : Espacio_bloque" id="244" order="88" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Límite de la hoja" path="" int="0"/>
+				<text Text="Límit del full" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 245 - Escena : Espacio_bloque: 'Usar' with 'Mover' executed" id="245" order="93" lastModified="-1">
@@ -4574,12 +4574,12 @@
 		</Text>
 		<Text name="Id: 246 - Escena : Flecha" id="246" order="89" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Flecha" path="" int="0"/>
+				<text Text="Fletxa" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 247 - Escena : Cerrar" id="247" order="90" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Cerrar" path="" int="0"/>
+				<text Text="Tancar" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 248 - Escena : Cerrar: 'Interactuar' executed" id="248" order="92" lastModified="-1">
@@ -4589,7 +4589,7 @@
 		</Text>
 		<Text name="Id: 249 - Canvi de cursor: Usar" id="249" order="68" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Usar" path="" int="0"/>
+				<text Text="Utilitzar" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 250 - Canvi de cursor: Usar" id="250" order="69" lastModified="-1">
@@ -4681,7 +4681,7 @@
 			<CursorActiveAnimation parentLink="T" id="29" tableId="9" LinkAny="F"/>
 			<CursorInactiveAnimation parentLink="T" id="30" tableId="9" LinkAny="F"/>
 		</Cursor>
-		<Cursor name="Usar" id="3" order="3" lastModified="-1">
+		<Cursor name="Utilitzar" id="3" order="3" lastModified="-1">
 			<CursorActiveAnimation parentLink="T" id="36" tableId="9" LinkAny="F"/>
 			<CursorInactiveAnimation parentLink="T" id="37" tableId="9" LinkAny="F"/>
 		</Cursor>
@@ -4810,7 +4810,7 @@
 	</ParticleContainers>
 	<CommentSetEntries newId="0" versionedId="-1" tableId="27">
 	</CommentSetEntries>
-	<AnimationFrames newId="3" versionedId="-1" tableId="28">
+	<AnimationFrames newId="0" versionedId="-1" tableId="28">
 	</AnimationFrames>
 	<WaySystems newId="15" versionedId="-1" tableId="29">
 		<WaySystem name="Way system0" id="0" order="0" lastModified="-1">
