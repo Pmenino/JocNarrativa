@@ -10,6 +10,7 @@
 			<Link parentLink="T" id="14" tableId="4" LinkAny="F"/>
 			<Link parentLink="T" id="15" tableId="4" LinkAny="F"/>
 			<Link parentLink="T" id="16" tableId="4" LinkAny="F"/>
+			<Link parentLink="T" id="17" tableId="4" LinkAny="F"/>
 		</GameSceneLinks>
 		<GameCharacterLinks>
 			<Link parentLink="T" id="0" tableId="0" LinkAny="F"/>
@@ -28,7 +29,7 @@
 		<GameLanguages>
 			<Link parentLink="T" id="0" tableId="18" LinkAny="F"/>
 		</GameLanguages>
-		<GameFirstScene parentLink="F" id="1" tableId="4" LinkAny="F"/>
+		<GameFirstScene parentLink="F" id="16" tableId="4" LinkAny="F"/>
 		<GameItems>
 			<Link parentLink="T" id="11" tableId="6" LinkAny="F"/>
 			<Link parentLink="T" id="70" tableId="6" LinkAny="F"/>
@@ -138,7 +139,7 @@
 			</CharacterOutfits>
 			<CharacterCommentSets>
 			</CharacterCommentSets>
-			<CharacterStartObject parentLink="F" id="4" tableId="6" LinkAny="F"/>
+			<CharacterStartObject parentLink="F" id="107" tableId="6" LinkAny="F"/>
 			<CharacterValues>
 			</CharacterValues>
 			<CharacterConditions>
@@ -631,7 +632,7 @@
 			<FontShadowOffset x="1" y="1"/>
 		</Font>
 	</Fonts>
-	<Scenes newId="17" versionedId="-1" tableId="4">
+	<Scenes newId="18" versionedId="-1" tableId="4">
 		<Scene name="Escena 2" id="1" order="4" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="Imatges escenes/bg2.PNG" Transparency="2">
 				<position x="0" y="0"/>
@@ -933,6 +934,38 @@
 				<Link parentLink="T" id="14" tableId="29" LinkAny="F"/>
 			</SceneWaySystems>
 			<SceneCurrentWaySystem parentLink="F" id="14" tableId="29" LinkAny="F"/>
+			<SceneActionAreas>
+			</SceneActionAreas>
+			<SceneAudioBusses>
+			</SceneAudioBusses>
+			<SceneTestCharacter parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneCurves>
+			</SceneCurves>
+			<SceneComponents>
+			</SceneComponents>
+		</Scene>
+		<Scene name="Final" id="17" order="11" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+			<SceneSprite name="" pause="-1" path="Imatges escenes/Final.png" Transparency="2">
+				<position x="0" y="0"/>
+			</SceneSprite>
+			<SceneName parentLink="T" id="265" tableId="14" LinkAny="F"/>
+			<SceneObjects>
+			</SceneObjects>
+			<SceneCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneSavegameAreas>
+			</SceneSavegameAreas>
+			<SceneValues>
+			</SceneValues>
+			<SceneConditions>
+			</SceneConditions>
+			<SceneActions>
+			</SceneActions>
+			<SceneSavegameFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneScrollableArea top="0" left="0" bottom="-1" right="-1"/>
+			<SceneWaySystems>
+			</SceneWaySystems>
+			<SceneCurrentWaySystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<SceneActionAreas>
 			</SceneActionAreas>
 			<SceneAudioBusses>
@@ -2530,7 +2563,7 @@
 			</ObjectComponents>
 		</Object>
 	</Objects>
-	<Actions newId="102" versionedId="-1" tableId="7">
+	<Actions newId="100" versionedId="-1" tableId="7">
 		<Action name="Action" id="4" order="4" lastModified="-1" ActionExecutionType="-1">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -2735,6 +2768,7 @@
 				<Link parentLink="T" id="86" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="87" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="88" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="286" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="'Parlar' executed" id="54" order="0" lastModified="-1" ActionExecutionType="6">
@@ -2880,7 +2914,7 @@
 			</ActionActionParts>
 		</Action>
 	</Actions>
-	<ActionParts newId="286" versionedId="-1" tableId="8">
+	<ActionParts newId="287" versionedId="-1" tableId="8">
 		<ActionPart name="Set next command" id="3" order="0" lastModified="-1" ActionPartCommand="45" ActionPartPath="" ActionPartInt="2" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -3065,15 +3099,15 @@
 			<ActionPartLink parentLink="F" id="2" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Home del carruatge: Fins que no arregli la roda no podrem anar a cap lloc" id="86" order="3" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+		<ActionPart name="Home del carruatge: Fins que no arregli la roda no podrem anar a cap lloc" id="86" order="4" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
 			<ActionPartLink parentLink="T" id="116" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="3" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Else" id="87" order="2" lastModified="-1" ActionPartCommand="5" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+		<ActionPart name="Else" id="87" order="3" lastModified="-1" ActionPartCommand="5" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Placeholder Jr.: Aqui hay que terminar el juego" id="88" order="1" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+		<ActionPart name="Placeholder Jr.: Que bé! Per fi podré retrobar-me amb el pare!" id="88" order="1" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
 			<ActionPartLink parentLink="T" id="117" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
@@ -3311,6 +3345,10 @@
 		</ActionPart>
 		<ActionPart name="Switch to scene 'Escena 2'" id="285" order="5" lastModified="-1" ActionPartCommand="10" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
 			<ActionPartLink parentLink="F" id="4" tableId="6" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Show scene 'Final'" id="286" order="2" lastModified="-1" ActionPartCommand="46" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="17" tableId="4" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 	</ActionParts>
@@ -4076,7 +4114,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="265" versionedId="-1" tableId="14">
+	<Texts newId="266" versionedId="-1" tableId="14">
 		<Text name="Id: 1 - : Placeholder Jr." id="1" order="1" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -4369,7 +4407,7 @@
 		</Text>
 		<Text name="Id: 117 - Home del carruatge: 'Interactuar' executed: Id: 117 - Home del carruatge: 'Interactuar' executed: Id: 117 - Home del carruatge: 'Interactuar' executed: Unnamed" id="117" order="92" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Aqui hay que terminar el juego" path="" int="0"/>
+				<text Text="Que bé! Per fi podré retrobar-me amb el pare!" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 118 - : Fustera" id="118" order="76" lastModified="-1">
@@ -4663,6 +4701,11 @@
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 264 - Inventory: Slot5" id="264" order="61" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="265" order="265" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
